@@ -94,7 +94,7 @@ namespace Telehelp
 
             Console.WriteLine("gm (get members)\t export members of group_name to members.txt");
             Console.WriteLine("ga (get active members)\t export active members of group_name to members.txt");
-            Console.WriteLine("gi (get inactive members)\t export active members of group_name to members.txt");
+            Console.WriteLine("gi (get inactive members)\t export inactive members of group_name to members.txt");
 
             Console.WriteLine("am (add members)\t add members from members.txt to a group_name");
 
@@ -104,11 +104,11 @@ namespace Telehelp
             Console.WriteLine("si (send multicast)\t private message.txt to inactive group members");
             Console.WriteLine("su (send unicast)\t send private message.txt to members.txt");
 
-            Console.WriteLine("pg (send broadcast)\t sent picture equael to sg");
-            Console.WriteLine("pm (send multicast)\t sent picture equael to sm");
-            Console.WriteLine("pa (send multicast)\t sent picture equael to sa");
-            Console.WriteLine("pi (send multicast)\t sent picture equael to si");
-            Console.WriteLine("pu (send multicast)\t sent picture equael to su");
+            Console.WriteLine("pg (send broadcast)\t sent picture equal to sg");
+            Console.WriteLine("pm (send multicast)\t sent picture equal to sm");
+            Console.WriteLine("pa (send multicast)\t sent picture equal to sa");
+            Console.WriteLine("pi (send multicast)\t sent picture equal to si");
+            Console.WriteLine("pu (send unicast)\t sent picture equal to su");
 
             Console.WriteLine("group_name\t name of a group to take into processing");
             Console.WriteLine("members.txt\t file with list of members collected or to be processed");
